@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.npm-cache
+apache-maven-3.9.9
+.maven.zip
+backend/target
+*.log
+.env*

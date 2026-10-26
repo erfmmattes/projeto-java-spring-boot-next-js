@@ -1,0 +1,118 @@
+0 verbose cli C:\laragon\bin\nodejs\node-v18\node.exe C:\laragon\bin\nodejs\node-v18\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.18.0
+2 info using node@v18.8.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:C:\laragon\bin\nodejs\node-v18\node_modules\npm\npmrc Completed in 7ms
+6 timing config:load:builtin Completed in 8ms
+7 timing config:load:cli Completed in 9ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 18ms
+11 timing config:load:file:C:\Users\ericm\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\laragon\bin\nodejs\node-v18\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 3ms
+17 timing config:load:setEnvs Completed in 3ms
+18 timing config:load Completed in 50ms
+19 timing npm:load:configload Completed in 50ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install
+23 verbose argv "install" "--no-audit" "--no-fund"
+24 timing npm:load:setTitle Completed in 3ms
+25 timing config:load:flatten Completed in 5ms
+26 timing npm:load:display Completed in 7ms
+27 verbose logfile logs-max:10 dir:C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npm-cache\_logs
+28 verbose logfile C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npm-cache\_logs\2026-10-26T11_43_34_453Z-debug-0.log
+29 timing npm:load:logFile Completed in 12ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 78ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 55ms
+37 timing idealTree:userRequests Completed in 0ms
+38 silly idealTree buildDeps
+39 silly fetch manifest next@14.2.31
+40 silly fetch manifest react@18.3.1
+41 silly fetch manifest react-dom@18.3.1
+42 silly fetch manifest @types/node@22.15.30
+43 silly fetch manifest @types/react@18.3.23
+44 silly fetch manifest @types/react-dom@18.3.7
+45 silly fetch manifest eslint@8.57.1
+46 silly fetch manifest eslint-config-next@14.2.31
+47 silly fetch manifest typescript@5.8.3
+48 silly placeDep ROOT @types/node@ OK for: clinic-visit-tracker@1.0.0 want: 22.15.30
+49 silly placeDep ROOT @types/react@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.23
+50 silly placeDep ROOT @types/react-dom@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.7
+51 silly placeDep ROOT eslint@ OK for: clinic-visit-tracker@1.0.0 want: 8.57.1
+52 silly placeDep ROOT eslint-config-next@ OK for: clinic-visit-tracker@1.0.0 want: 14.2.31
+53 silly placeDep ROOT next@ OK for: clinic-visit-tracker@1.0.0 want: 14.2.31
+54 silly placeDep ROOT react@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.1
+55 silly placeDep ROOT react-dom@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.1
+56 silly placeDep ROOT typescript@ OK for: clinic-visit-tracker@1.0.0 want: 5.8.3
+57 timing idealTree:#root Completed in 631005ms
+58 timing idealTree:node_modules/@types/node Completed in 0ms
+59 timing idealTree:node_modules/@types/react Completed in 0ms
+60 timing idealTree:node_modules/@types/react-dom Completed in 0ms
+61 timing idealTree:node_modules/eslint Completed in 0ms
+62 timing idealTree:node_modules/eslint-config-next Completed in 0ms
+63 timing idealTree:node_modules/next Completed in 1ms
+64 timing idealTree:node_modules/react Completed in 0ms
+65 timing idealTree:node_modules/react-dom Completed in 0ms
+66 timing idealTree:node_modules/typescript Completed in 0ms
+67 timing idealTree:buildDeps Completed in 631026ms
+68 timing idealTree:fixDepFlags Completed in 2ms
+69 timing idealTree Completed in 631097ms
+70 timing command:install Completed in 631233ms
+71 verbose type system
+72 verbose stack FetchError: request to https://registry.npmjs.org/@types%2fnode failed, reason: connect EACCES 2606:4700::6810:122:443
+72 verbose stack     at ClientRequest.<anonymous> (C:\laragon\bin\nodejs\node-v18\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+72 verbose stack     at ClientRequest.emit (node:events:513:28)
+72 verbose stack     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+72 verbose stack     at TLSSocket.emit (node:events:525:35)
+72 verbose stack     at emitErrorNT (node:internal/streams/destroy:151:8)
+72 verbose stack     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+72 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+73 verbose cwd C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java
+74 verbose Windows_NT 10.0.26200
+75 verbose node v18.8.0
+76 verbose npm  v8.18.0
+77 error code EACCES
+78 error syscall connect
+79 error errno EACCES
+80 error FetchError: request to https://registry.npmjs.org/@types%2fnode failed, reason: connect EACCES 2606:4700::6810:122:443
+80 error     at ClientRequest.<anonymous> (C:\laragon\bin\nodejs\node-v18\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+80 error     at ClientRequest.emit (node:events:513:28)
+80 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+80 error     at TLSSocket.emit (node:events:525:35)
+80 error     at emitErrorNT (node:internal/streams/destroy:151:8)
+80 error     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+80 error     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+80 error   code: 'EACCES',
+80 error   errno: 'EACCES',
+80 error   syscall: 'connect',
+80 error   address: '2606:4700::6810:122',
+80 error   port: 443,
+80 error   type: 'system',
+80 error   requiredBy: '.'
+80 error }
+81 error
+81 error The operation was rejected by your operating system.
+81 error It's possible that the file was already in use (by a text editor or antivirus),
+81 error or that you lack permissions to access it.
+81 error
+81 error If you believe this might be a permissions issue, please double-check the
+81 error permissions of the file and its containing directories, or try running
+81 error the command again as root/Administrator.
+82 verbose exit 1
+83 timing npm Completed in 631867ms
+84 verbose unfinished npm timer reify 1793015014998
+85 verbose unfinished npm timer reify:loadTrees 1793015015126
+86 verbose code 1
+87 error A complete log of this run can be found in:
+87 error     C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npm-cache\_logs\2026-10-26T11_43_34_453Z-debug-0.log

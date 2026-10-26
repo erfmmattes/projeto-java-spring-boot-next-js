@@ -1,0 +1,70 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.2
+2 info using node@v22.18.0
+3 silly config load:file:C:\Users\ericm\AppData\Roaming\nvm\v22.18.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npmrc
+5 silly config load:file:C:\Users\ericm\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--fetch-retries" "0" "--fetch-timeout" "15000"
+9 verbose logfile logs-max:10 dir:C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npm-cache\_logs\2026-10-26T11_52_34_898Z-
+10 verbose logfile C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npm-cache\_logs\2026-10-26T11_52_34_898Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest next@14.2.31
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http fetch GET https://registry.npmjs.org/next attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+17 silly fetch manifest react@18.3.1
+18 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+19 http fetch GET https://registry.npmjs.org/react attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+20 silly fetch manifest react-dom@18.3.1
+21 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+22 http fetch GET https://registry.npmjs.org/react-dom attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+23 silly fetch manifest @types/node@22.15.30
+24 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+25 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+26 silly fetch manifest @types/react@18.3.23
+27 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+28 http fetch GET https://registry.npmjs.org/@types%2freact attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+29 silly fetch manifest @types/react-dom@18.3.7
+30 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+31 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+32 silly fetch manifest eslint@8.57.1
+33 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+34 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+35 silly fetch manifest eslint-config-next@14.2.31
+36 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+37 http fetch GET https://registry.npmjs.org/eslint-config-next attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+38 silly fetch manifest typescript@5.8.3
+39 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+40 http fetch GET https://registry.npmjs.org/typescript attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+41 silly placeDep ROOT @types/node@ OK for: clinic-visit-tracker@1.0.0 want: 22.15.30
+42 silly placeDep ROOT @types/react@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.23
+43 silly placeDep ROOT @types/react-dom@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.7
+44 silly placeDep ROOT eslint@ OK for: clinic-visit-tracker@1.0.0 want: 8.57.1
+45 silly placeDep ROOT eslint-config-next@ OK for: clinic-visit-tracker@1.0.0 want: 14.2.31
+46 silly placeDep ROOT next@ OK for: clinic-visit-tracker@1.0.0 want: 14.2.31
+47 silly placeDep ROOT react@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.1
+48 silly placeDep ROOT react-dom@ OK for: clinic-visit-tracker@1.0.0 want: 18.3.1
+49 silly placeDep ROOT typescript@ OK for: clinic-visit-tracker@1.0.0 want: 5.8.3
+50 verbose type system
+51 verbose stack FetchError: request to https://registry.npmjs.org/@types%2fnode failed, reason: unable to verify the first certificate
+51 verbose stack     at ClientRequest.<anonymous> (C:\Users\ericm\AppData\Roaming\nvm\v22.18.0\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+51 verbose stack     at ClientRequest.emit (node:events:518:28)
+51 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+51 verbose stack     at _destroy (node:_http_client:898:9)
+51 verbose stack     at onSocketNT (node:_http_client:918:5)
+51 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+52 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+53 error errno UNABLE_TO_VERIFY_LEAF_SIGNATURE
+54 error request to https://registry.npmjs.org/@types%2fnode failed, reason: unable to verify the first certificate
+55 silly unfinished npm timer reify 1793015574921
+56 silly unfinished npm timer reify:loadTrees 1793015574923
+57 verbose cwd C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java
+58 verbose os Windows_NT 10.0.26200
+59 verbose node v22.18.0
+60 verbose npm  v11.5.2
+61 verbose exit 1
+62 verbose code 1
+63 error A complete log of this run can be found in: C:\Users\ericm\OneDrive\Documentos\ChatGPT\vaga-java\.npm-cache\_logs\2026-10-26T11_52_34_898Z-debug-0.log

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: clinic-api
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:h2:file:./data/clinic;MODE=MySQL;AUTO_SERVER=TRUE}
+    username: ${SPRING_DATASOURCE_USERNAME:sa}
+    password: ${SPRING_DATASOURCE_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: ${PORT:8080}
+app:
+  httpbin-url: ${HTTPBIN_URL:https://httpbin.org/uuid}
+  scheduler-delay-ms: ${SCHEDULER_DELAY_MS:5000}
+  retry-delay-ms: ${RETRY_DELAY_MS:10000}
+  frontend-origin: ${FRONTEND_ORIGIN:http://localhost:3000}
+

@@ -1,0 +1,8 @@
+node_modules/
+.next/
+out/
+target/
+.env
+.env.local
+npm-debug.log*
+
